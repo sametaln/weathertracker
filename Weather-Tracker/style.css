@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0; 
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom, #1c1b24 0%,#151325 100%);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+
+/* NAVBAR */
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 7px;
+}
+
+.navbar{
+  height: 60px;
+  background-color: rgb(16, 14, 27);
+  color: #fff;
+}
+
+.navcontainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 3vh;
+  color: #fff
+}
+
+.kripto{
+  margin: 10px;
+}
+
+.kripto:hover{
+  border-bottom: solid 1px white;
+}
+
+/*  MAIN CONTENT  */
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+
+.inputCity {
+  padding: 60px;
+}
+
+.city {
+  margin: 10px;
+  height: 35px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.city:focus {
+  outline-width: 0;
+}
+
+.get{
+  height: 35px;
+  width: 100px;
+  margin: 3px;
+  border-radius: 5px;
+  background: transparent;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+.get:hover {
+  background-color: #fff;
+  color: black;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+
+.card{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.degree p{
+  font-size: 30px;
+  margin-top: 35px;
+}
+
+.cityname p {
+  font-size: 30px;
+  margin-top: 35px;
+}
+
+.weather {
+  font-size: 30px;
+  margin-top: 35px;
+}

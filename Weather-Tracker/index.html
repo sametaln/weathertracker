@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <title>Weather | Tracker.</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navcontainer flex">
+        <h1 class="logo"><a href="index.html">Weather Tracker.</a></h1>
+        <nav>
+          <a href="https://crypto1.drqjn75qm45e4.amplifyapp.com/" class="kripto">Crypto Tracker</a>
+        </nav>
+      </div>
+    </div>
+    <div class="container">
+      <div class="inputCity">
+        <input type="text" class="city" placeholder="Enter City Name">
+        <button class="get">Get Weather</button> 
+      </div>
+      <div class="card active">
+        <div class="degree"></div>
+        <div class="cityname"></div>
+        <div class="weather"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
